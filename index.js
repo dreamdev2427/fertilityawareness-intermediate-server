@@ -53,8 +53,8 @@ app.post("/executeQuery", async (req, res) => {
     });
 
     // Debugging: Inspect response and response.choices
-    console.log("Response from OpenAI:", response);
-    console.log("Choices from OpenAI:", response.choices);
+    console.log("Response from OpenAI: ", response);
+    console.log("Choices from OpenAI: ", response.choices);
     // Return the answer
 
     res.status(200).send({
